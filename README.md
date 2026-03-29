@@ -22,49 +22,7 @@ Argus audits any domain across **4 independent security modules** running in par
 
 Every finding includes a **remediation suggestion** explaining exactly how to fix the issue.
 
----
 
-## 🚀 Run Locally
-
-### 1. Clone the repository
-```bash
-git clone https://github.com/AkshitTTaliyaN/argus.git
-cd argus
-```
-
-### 2. Install system dependency (Nmap)
-```bash
-# Ubuntu / Debian
-sudo apt install nmap
-
-# macOS
-brew install nmap
-```
-
-### 3. Install Python dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### 4. Launch the app
-```bash
-streamlit run app.py
-```
-
-Open [http://localhost:8501](http://localhost:8501) in your browser.
-
----
-
-## ☁️ Deploy on Streamlit Cloud
-
-1. Push this repository to GitHub
-2. Go to [share.streamlit.io](https://share.streamlit.io) → **New app**
-3. Select your repo, set **Main file path** to `app.py`
-4. Click **Deploy**
-
-> Streamlit Cloud reads `packages.txt` automatically to install Nmap at the system level.
-
----
 
 ## 🗂️ Project Structure
 
@@ -119,13 +77,3 @@ Unauthorised scanning may violate computer misuse laws in your jurisdiction.
 
 ---
 
-## 👤 Author
-
-**Akshit** — B.Tech Computer Science, Amity University Noida  
-GitHub: [@AkshitTTaliyaN](https://github.com/AkshitTTaliyaN)
-
----
-
-## 📄 License
-
-MIT License — see [LICENSE](LICENSE) for details.
