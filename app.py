@@ -1,8 +1,3 @@
-"""
-app.py — Argus | Streamlit Security Auditing Tool
-Dark hacker aesthetic | Multi-module: Ports, HTTP, SSL, DNS, Subdomains
-"""
-
 import streamlit as st
 import plotly.graph_objects as go
 import threading
