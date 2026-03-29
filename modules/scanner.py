@@ -1,6 +1,3 @@
-"""
-scanner.py — Network port scanner using python-nmap
-"""
 import nmap
 
 RISKY_PORTS = {
