@@ -1,7 +1,3 @@
-"""
-scorer.py — Aggregates all module risk scores into a final grade.
-"""
-
 GRADE_MAP = [
     (0,   0,  "A", "Excellent",  "#00ff9f", "No significant issues detected."),
     (1,   20, "B", "Good",       "#aaff00", "Minor issues — review recommended."),
