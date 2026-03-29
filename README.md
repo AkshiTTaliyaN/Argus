@@ -1,6 +1,5 @@
-# 👁 Argus — Network & Web Security Auditor
+# Argus — Network & Web Security Auditor
 
-> *In Greek mythology, Argus Panoptes was a giant with a hundred eyes — all-seeing, nothing escaped his watch.*  
 > This tool embodies that: auditing every layer of a domain's security in one scan.
 
 ![Python](https://img.shields.io/badge/Python-3.9+-00ff9f?style=flat-square&logo=python&logoColor=black)
