@@ -1,6 +1,3 @@
-"""
-web_audit.py — HTTP security header & cookie auditor
-"""
 import requests
 
 SECURITY_HEADERS = {
