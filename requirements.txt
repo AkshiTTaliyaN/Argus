@@ -1,0 +1,5 @@
+streamlit>=1.32.0
+python-nmap>=0.7.1
+requests>=2.31.0
+dnspython>=2.6.0
+plotly>=5.20.0
