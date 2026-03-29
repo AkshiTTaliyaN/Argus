@@ -17,9 +17,6 @@ st.set_page_config(
     initial_sidebar_state="collapsed"
 )
 
-# ─────────────────────────────────────────────
-#  GLOBAL DARK THEME CSS
-# ─────────────────────────────────────────────
 st.markdown("""
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Rajdhani:wght@400;600;700&display=swap');
@@ -154,10 +151,6 @@ hr { border-color: var(--border) !important; margin: 1.2rem 0 !important; }
 </style>
 """, unsafe_allow_html=True)
 
-
-# ─────────────────────────────────────────────
-#  HELPER: Styled card HTML
-# ─────────────────────────────────────────────
 def card(content: str, border_color: str = "#1e2d3d") -> str:
     return f"""
     <div style="background:#0f1419;border:1px solid {border_color};border-radius:8px;
