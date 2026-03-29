@@ -1,6 +1,3 @@
-"""
-ssl_checker.py — SSL/TLS certificate inspector
-"""
 import ssl
 import socket
 from datetime import datetime, timezone
