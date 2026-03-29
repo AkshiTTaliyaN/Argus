@@ -1,6 +1,3 @@
-"""
-dns_checker.py — DNS security auditor (SPF, DMARC, DKIM, subdomain enumeration)
-"""
 import dns.resolver
 import dns.exception
 
