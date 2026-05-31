@@ -13,16 +13,16 @@ Argus audits any domain across **4 independent security modules** running in par
 
 | Module | What It Checks |
 |---|---|
-| ⚡ **Port Scanner** | Open ports via Nmap — flags FTP, Telnet, MySQL, RDP, SSH, SMTP |
-| 🌐 **HTTP Headers** | 6 critical security headers, cookie flags (Secure/HttpOnly/SameSite), server fingerprinting |
-| 🔒 **SSL / TLS** | Certificate validity, issuer, expiry, self-signed detection, TLS version |
-| 📡 **DNS Security** | SPF, DMARC, DKIM records + subdomain enumeration (35+ wordlist) |
+| **Port Scanner** | Open ports via Nmap — flags FTP, Telnet, MySQL, RDP, SSH, SMTP |
+| **HTTP Headers** | 6 critical security headers, cookie flags (Secure/HttpOnly/SameSite), server fingerprinting |
+| **SSL / TLS** | Certificate validity, issuer, expiry, self-signed detection, TLS version |
+| **DNS Security** | SPF, DMARC, DKIM records + subdomain enumeration (35+ wordlist) |
 
 Every finding includes a **remediation suggestion** explaining exactly how to fix the issue.
 
 
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 argus/
@@ -41,7 +41,7 @@ argus/
 
 ---
 
-## 🧮 Risk Scoring System
+## Risk Scoring System
 
 | Score | Grade | Meaning |
 |---|---|---|
@@ -55,7 +55,7 @@ Each category (Network, Web, SSL, DNS) also gets an individual grade visible in 
 
 ---
 
-## 🛡️ Security Best Practices Applied
+## Security Best Practices Applied
 
 - **Input sanitisation** — strips `http://`, `https://`, trailing slashes before processing
 - **No hardcoded credentials** — zero secrets in source code (OWASP)
@@ -67,7 +67,7 @@ Each category (Network, Web, SSL, DNS) also gets an individual grade visible in 
 
 ---
 
-## ⚠️ Legal Notice
+## Legal Notice
 
 Argus is designed for **passive, non-destructive reconnaissance only**.  
 Only scan domains you own or have explicit written permission to audit.  
